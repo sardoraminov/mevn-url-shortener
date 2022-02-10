@@ -4,7 +4,7 @@
 
 <script>
 import axios from "axios";
-axios.defaults.baseURL = "http://localhost:5000";
+axios.defaults.baseURL = "https://url-shortener-mevn.herokuapp.com";
 
 export default {
   name: "Url",
